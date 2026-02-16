@@ -1,1 +1,1 @@
-# Created for project odin
+# Odin Tic Tac Toe
