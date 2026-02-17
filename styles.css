@@ -81,6 +81,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: beige;
 }
 #gameboard {
     display: grid;
@@ -97,4 +98,32 @@ body {
     align-items: center;
     border: 5px solid black;
     font-size: 10rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+button {
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+#results p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+dialog.player-name-dialog form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    gap: 20px;
 }
